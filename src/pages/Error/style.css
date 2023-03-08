@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/font/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.error__title {
+    margin: 50px 0px;
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 411px;
+}
+
+.error__content {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.error > a {
+    margin: 100px 0px;
+    font-size: 18px;
+    line-height: 26px;
+    text-decoration: underline;
+}
+
+.error > a:link {
+    color: inherit;
+}
+
+.error > a:visited {
+    color: #ff6060;
+}
+
+/* Responsive mobile */
+@media screen and (max-width: 768px) {
+    .error__title {
+        margin-top: 100px;
+        margin-bottom: 0px;
+        font-size: 96px;
+        line-height: 137px;
+    }
+
+    .error__content {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .error > a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

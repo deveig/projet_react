@@ -1,0 +1,29 @@
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 5%;
+    padding: 5px 50px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: #ff6060;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: content-box;
+}
+
+/* Responsive mobile */
+@media screen and (max-width: 768px) {
+    .tag {
+        width: 10%;
+        margin-top: 8px;
+        border-radius: 5px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
