@@ -10,7 +10,7 @@ function Router() {
             path: '/',
             element: <Home />,
             loader: () => {
-                return fetch('/datas/logements.json')
+                return fetch('https://deveig.github.io/projet_react/datas/logements.json')
             },
             errorElement: <Error />,
         },
@@ -18,7 +18,7 @@ function Router() {
             path: '/logement/:logementId',
             element: <Logement />,
             loader: () => {
-                return fetch('/datas/logements.json')
+                return fetch('https://deveig.github.io/projet_react/datas/logements.json')
             },
             errorElement: <Error />,
         },
