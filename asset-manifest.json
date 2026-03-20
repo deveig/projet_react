@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projet_react/static/css/main.d02d9757.css",
-    "main.js": "/projet_react/static/js/main.efa5a09e.js",
+    "main.js": "/projet_react/static/js/main.da6f8fa6.js",
     "static/media/background_landscape_2.jpg": "/projet_react/static/media/background_landscape_2.3827f97bdcef0854551d.jpg",
     "static/media/background_landscape_1.jpg": "/projet_react/static/media/background_landscape_1.053687a54587bf187cfc.jpg",
     "static/media/Montserrat-Medium.ttf": "/projet_react/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
@@ -17,10 +17,10 @@
     "static/media/chevron_right.svg": "/projet_react/static/media/chevron_right.f1e62b1c0199eec69b1cddc2e6185135.svg",
     "static/media/chevron_left.svg": "/projet_react/static/media/chevron_left.607671694dda9fcb5aac86d1cd56249b.svg",
     "main.d02d9757.css.map": "/projet_react/static/css/main.d02d9757.css.map",
-    "main.efa5a09e.js.map": "/projet_react/static/js/main.efa5a09e.js.map"
+    "main.da6f8fa6.js.map": "/projet_react/static/js/main.da6f8fa6.js.map"
   },
   "entrypoints": [
     "static/css/main.d02d9757.css",
-    "static/js/main.efa5a09e.js"
+    "static/js/main.da6f8fa6.js"
   ]
 }
