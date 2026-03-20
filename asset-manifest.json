@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a186f58.css",
+    "main.js": "/static/js/main.3cb613d3.js",
+    "static/media/background_landscape_2.jpg": "/static/media/background_landscape_2.3827f97bdcef0854551d.jpg",
+    "static/media/background_landscape_1.jpg": "/static/media/background_landscape_1.053687a54587bf187cfc.jpg",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/logo_red.svg": "/static/media/logo_red.ac38b36ec692f2f5731bc84c1ac2030e.svg",
+    "static/media/logo_white.svg": "/static/media/logo_white.2553fb29683f2c12e44904bd8503bf1b.svg",
+    "index.html": "/index.html",
+    "static/media/chevron_down.svg": "/static/media/chevron_down.bdbacc5c7201e6a7526bace22be3046b.svg",
+    "static/media/chevron_up.svg": "/static/media/chevron_up.f2cc62c993a17171d4d3a6bcefd7fff7.svg",
+    "static/media/star_rate_empty.svg": "/static/media/star_rate_empty.636d59d188c11247881a805e757b372a.svg",
+    "static/media/star_rate_full.svg": "/static/media/star_rate_full.55400e938ce0d24b1f3a933ad4f06027.svg",
+    "static/media/chevron_right.svg": "/static/media/chevron_right.f1e62b1c0199eec69b1cddc2e6185135.svg",
+    "static/media/chevron_left.svg": "/static/media/chevron_left.607671694dda9fcb5aac86d1cd56249b.svg",
+    "main.6a186f58.css.map": "/static/css/main.6a186f58.css.map",
+    "main.3cb613d3.js.map": "/static/js/main.3cb613d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a186f58.css",
+    "static/js/main.3cb613d3.js"
+  ]
+}
