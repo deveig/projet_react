@@ -5,26 +5,31 @@ import Logement from '../../pages/Logement'
 import Error from '../../pages/Error'
 
 function Router() {
-    const router = createBrowserRouter([
-        {
-            path: '/',
-            element: <Home />,
-            loader: () => {
-                return fetch('./datas/logements.json')
+    const router = createBrowserRouter(
+        [
+            {
+                path: '/',
+                element: <Home />,
+                loader: () => {
+                    return fetch('./datas/logements.json')
+                },
+                errorElement: <Error />,
             },
-            errorElement: <Error />,
-        },
-        {
-            path: '/logement/:logementId',
-            element: <Logement />,
-            loader: () => {
-                return fetch('./datas/logements.json')
+            {
+                path: '/logement/:logementId',
+                element: <Logement />,
+                loader: () => {
+                    return fetch('./datas/logements.json')
+                },
+                errorElement: <Error />,
             },
-            errorElement: <Error />,
+            { path: '/apropos', element: <About /> },
+            { path: '*', element: <Error /> },
+        ],
+        {
+            basename: '/projet_react',
         },
-        { path: '/apropos', element: <About /> },
-        { path: '*', element: <Error /> },
-    ])
+    )
     return <RouterProvider router={router} />
 }
 
